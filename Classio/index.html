@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app='uiRouteDemo'>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Practice</title>
+
+  </head>
+
+  <body ng-controller="listController">
+    Hello alien world!
+    <ui-view>
+      <!-- Do not put anything here it will be replaced -->
+    </ui-view>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+    <script src="settings-controller.js"></script>
+    <script src="list-controller.js"></script>
+    <script src="list-service.js"></script>
+    <script src="details-controller.js"></script>
+  </body>
+
+</html>
